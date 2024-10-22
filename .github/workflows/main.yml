@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://agnish77: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@huggingface.co/spaces/agnish77/Qna-Chatbot main
+        run: git push https://agnish77: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@huggingface.co/spaces/agnish77/Chatbot main
