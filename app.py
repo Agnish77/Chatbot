@@ -30,10 +30,10 @@ def generate_response(question,llm,temperature,max_tokens):
     return answer
 
 ## #Title of the app
-st.title("Enhanced Q&A Chatbot With Ollama")
+st.title("Enhanced Q&A Chatbot With Gemma2B")
 
 
-## Select the OpenAI model
+
 llm=st.sidebar.selectbox("Select Open Source model",["gemma2:2b"])
 
 ## Adjust response parameter
