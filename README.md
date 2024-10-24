@@ -10,12 +10,17 @@ Prompt Customization: The chatbot’s prompt is defined using a template, making
 Environment Variable Support: Uses dotenv to manage API keys and other environment variables securely.
 
 Installation
+
 Prerequisites
+
 Ensure you have Python installed (version 3.7 or higher). You'll also need to install the following Python packages:
+
 pip install streamlit langchain-core langchain-community python-dotenv
 
 Setting Up Environment Variables
+
 Create a .env file in the root of the project directory to store your API keys securely. Add the following line to .env:
+
 LANGCHAIN_API_KEY=your_actual_langchain_api_key_here
 
 Run the Chatbot
@@ -25,6 +30,7 @@ streamlit run app.py
 
 
 Usage
+
 Open the Streamlit app using the link provided in the terminal after running app.py.
 Choose the desired model from the sidebar (e.g., gemma2:2b).
 Adjust the Temperature (controls randomness of the response) and Max Tokens (limits response length) using the sliders.
@@ -32,6 +38,7 @@ Enter your question in the input field, and the chatbot will generate a response
 Enjoy interactive and informative answers from your chatbot!
 
 How It Works
+
 The chatbot utilizes the following core components:
 
 **Prompt Template: A structured prompt that sets the system behavior (e.g., "You are a helpful assistant...") and formats the user input.
@@ -40,10 +47,15 @@ Langchain Framework: Handles the logic for constructing the chain of operations,
 Environment Variables: Stores sensitive API keys securely using dotenv.
 
 |-- .env                  # Contains environment variables (API keys)
+
 |-- .streamlit/
+
     |-- secrets.toml      # For storing Streamlit secrets (optional)
+    
 |-- app.py                # Main Streamlit application code
+
 |-- README.md             # Project documentation
+
 |-- requirements.txt      # List of required Python packages
 
 
