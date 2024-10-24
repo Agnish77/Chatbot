@@ -33,7 +33,7 @@ Enjoy interactive and informative answers from your chatbot!
 How It Works
 The chatbot utilizes the following core components:
 
-Prompt Template: A structured prompt that sets the system behavior (e.g., "You are a helpful assistant...") and formats the user input.
+**Prompt Template: A structured prompt that sets the system behavior (e.g., "You are a helpful assistant...") and formats the user input.
 Ollama Language Models: The core engine generating responses based on the user’s query.
 Langchain Framework: Handles the logic for constructing the chain of operations, parsing output, and customizing responses.
 Environment Variables: Stores sensitive API keys securely using dotenv.
