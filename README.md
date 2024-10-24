@@ -1,4 +1,4 @@
-# Chatbot
+# QNA-Chatbot
 ## Enhanced Q&A Chatbot with Ollama
 This project is a Q&A Chatbot built using Streamlit and the Langchain framework. It leverages open-source language models from Ollama, providing users with an intuitive interface to ask any question and receive responses based on the chosen model and configuration.
 
